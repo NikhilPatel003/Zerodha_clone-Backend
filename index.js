@@ -16,7 +16,7 @@ const { MONGO_URL, PORT = 3000 } = process.env;
 // Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:5173","http://localhost:5174"],
+    origin: ["https://investo-gamma.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
