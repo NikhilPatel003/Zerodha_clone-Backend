@@ -16,7 +16,7 @@ const { MONGO_URL, PORT = 3000 } = process.env;
 // Middlewares
 app.use(
   cors({
-    origin: ["https://investo-gamma.vercel.app"],
+    origin: ["https://zerodha-clone-dashboard-virid.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
